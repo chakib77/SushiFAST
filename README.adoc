@@ -23,61 +23,61 @@ L'application permet à un utilisateur de passer commande de boxes de sushis en 
 
 ====
 Sur la page d'acceuil "Produits", vous verrez la liste des boxes de sushis disponibles à la vente. Pour voir les détails d'une box, cliquez sur le bouton "Voir les détails" correspondant.
-image:img/produits.jpg[]
+image:img/produits.JPG[]
 ====
 
 ====
 Sur la page "Détails", vous verrez les informations détaillées de la box de sushis sélectionnée. Vous pourrez également ajouter cette box à votre panier en cliquant sur le bouton "Ajouter au panier".
-image:img/details.jpg[]
+image:img/details.JPG[]
 ====
 
 ====
 Sur la page "Panier", vous verrez la liste des boxes de sushis que vous avez ajoutée à votre panier. Vous pourrez également passer votre commande (en théorie) en cliquant sur le bouton "Valider la commande".
-image:img/panier.jpg[]
+image:img/panier.JPG[]
 ====
 
 ====
 Enfin, vous pourrez accéder à l'historique de vos commandes en cliquant sur "Historique" dans la barre de navigation. (affichage à finaliser)
-image:img/recapitulatif.jpg[]
+image:img/recapitulatif.JPG[]
 ====
 
 == Codes
 === Produits
-image:img/codeProduits.jpg[]
+image:img/codeProduits.JPG[]
 
 === Détails
-image:img/codeDetails.jpg[]
+image:img/codeDetails.JPG[]
 
 === Panier
-image:img/codePanier.jpg[]
+image:img/codePanier.JPG[]
 
 === Valider la commande
 
-image:img/validerCommande.jpg[]
+image:img/validerCommande.JPG[]
 
 === Service API
-image:img/serviceAPI.jpg[]
+image:img/serviceAPI.JPG[]
 
 === Service panier
-image:img/servicePanier.jpg[]
+image:img/servicePanier.JPG[]
 
 === App Routing
-image:img/appRouting.jpg[]
+image:img/appRouting.JPG[]
 
 === Box model
-image:img/model.jpg[]
+image:img/model.JPG[]
 
 === Produit (box) HTML
-image:img/produitsHTML.jpg[]
+image:img/produitsHTML.JPG[]
 
 === Détails (box) HTML
-image:img/detailsHTML.jpg[]
+image:img/detailsHTML.JPG[]
 
 === Environnement API
 image:img/environnement.jpg[]
 
 === Code de l'API
-image:img/apiSpring.jpg[]
+image:img/apiSpring.JPG[]
 Ces fonctions sont des endpoints d'une API REST en Kotlin qui sert à fournir des données et des images aux clients.
 
 - allBoxes() renvoie toutes les boîtes stockées en base de données sous forme de liste d'objets de type BoxDtoJson.
