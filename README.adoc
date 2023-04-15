@@ -89,7 +89,7 @@ Ces fonctions sont des endpoints d'une API REST en Kotlin qui sert à fournir de
 image:img/utilisation.jpg[]
 
 === Diagramme des tiers
-image:img/solution.jpg[]
+image:img/solution1.jpg[]
 
 == Structure JSON
 [source,json]
