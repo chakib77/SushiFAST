@@ -1,0 +1,17 @@
+<h1>Détails de la box</h1>
+
+<div *ngIf="box">
+  <h2>{{ box.nom }}</h2>
+  <img src="http://localhost:8080/api/images/{{ box.image }}" alt="{{ box.nom }}" />
+
+  <h3>Aliments :</h3>
+  <ul>
+    <li *ngFor="let aliment of box.aliments">{{ aliment.nom }} ({{ aliment.quantite }})</li>
+  </ul>
+
+  <button (click)="addToPanier(box); goToPanier()" class="btn btn-primary">Ajouter au panier</button>
+</div>
+
+<div *ngIf="!box">
+  <!-- <p>Chargement en cours...</p> -->
+</div>

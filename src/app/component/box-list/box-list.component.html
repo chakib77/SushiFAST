@@ -1,0 +1,23 @@
+<table>
+  <thead>
+    <tr>
+      <th>ID :</th>
+      <th>Nom :</th>
+      <th>Image :</th>
+      <th>Saveurs :</th>
+      <!--<th>Pieces : </th>-->
+      <th>Prix : </th>
+      <th>Action :</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let box of boxes">
+      <td>{{ box.id }}</td>
+      <td>{{ box.nom }}</td>
+      <td><img src="http://localhost:8080/api/images/{{box.image }}"></td>
+      <td>{{ box.saveurs.length }}</td>
+      <td>{{ box.prix }} €</td>
+      <td><a routerLink="/box/{{ box.id }}" class="btn btn-danger">Voir les détails</a></td>
+    </tr>
+  </tbody>
+</table>

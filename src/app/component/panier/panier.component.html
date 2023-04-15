@@ -1,0 +1,27 @@
+<h1>Panier</h1>
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nom</th>
+      <th>Image</th>
+      <th>Prix</th>
+      <th>Supprimer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let box of panier">
+      <td>{{ box.id }}</td>
+      <td>{{ box.nom }}</td>
+      <td><img src="http://localhost:8080/api/images/{{box.image }}"></td>
+      <td>{{ box.prix }} €</td>
+      <td><button (click)="removeFromPanier(box)">Supprimer</button></td>
+    </tr>
+    <tr>
+      <td colspan="2">Total :</td>
+      <td>{{ getTotal() }} €</td>
+    </tr>
+  </tbody>
+</table>
+
+<button class="btn btn-success" (click)="validerCommande()">Valider la commande</button>
